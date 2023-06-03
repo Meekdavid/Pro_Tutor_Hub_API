@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DSfNsLBSuflvTA0vWIjDI0D2UKd/a222aLnGkN5eIVUDH7AudDEqlESwwgYHdg2/1M0RZnmfB5ChgR05piXLew==",
+  "dgSpecHash": "idYiq+o44H5dodXYISQ1tjm1uBJ4Xi7LkLW1R5vNHIxV0gVWsh4LJYd1fUiGx3EsNmfjz3wM/obYEynx5WsS8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\David Mboko\\Desktop\\Git\\ProgramsTask\\ProgramsTask\\ProgramsTask.csproj",
+  "projectFilePath": "C:\\Users\\David Mboko\\Desktop\\Git\\Capital-Placement-API\\ProgramsTask\\ProgramsTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David Mboko\\.nuget\\packages\\azure.core\\1.19.0\\azure.core.1.19.0.nupkg.sha512",
     "C:\\Users\\David Mboko\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
