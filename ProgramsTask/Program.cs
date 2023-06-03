@@ -37,7 +37,7 @@ class Program
                 string primaryKey = cosmosDBCredentials.primaryKey;
                 string dbName = cosmosDBCredentials.cosmosDatabase;
 
-                //Addition of Cosmos DB Credentials
+                //Addition of Cosmos DB Credentials for Fetching Data
 
                 services.AddSingleton<IApplicationForm>(options =>
                 {
