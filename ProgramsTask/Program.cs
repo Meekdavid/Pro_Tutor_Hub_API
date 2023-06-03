@@ -36,7 +36,8 @@ class Program
                 string? url = cosmosDBCredentials.URI;
                 string primaryKey = cosmosDBCredentials.primaryKey;
                 string dbName = cosmosDBCredentials.cosmosDatabase;
-                //Addition of Cosmos DB
+
+                //Addition of Cosmos DB Credentials for Fetching Data
 
                 services.AddSingleton<IApplicationForm>(options =>
                 {
