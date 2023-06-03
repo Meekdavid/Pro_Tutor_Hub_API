@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\David Mboko\\Desktop\\Git\\ProgramsTask\\ProgramsTask\\ProgramsTask.csproj": {}
+    "C:\\Users\\David Mboko\\Desktop\\Git\\Capital-Placement-API\\ProgramsTask\\ProgramsTask.csproj": {}
   },
   "projects": {
-    "C:\\Users\\David Mboko\\Desktop\\Git\\ProgramsTask\\ProgramsTask\\ProgramsTask.csproj": {
+    "C:\\Users\\David Mboko\\Desktop\\Git\\Capital-Placement-API\\ProgramsTask\\ProgramsTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\David Mboko\\Desktop\\Git\\ProgramsTask\\ProgramsTask\\ProgramsTask.csproj",
+        "projectUniqueName": "C:\\Users\\David Mboko\\Desktop\\Git\\Capital-Placement-API\\ProgramsTask\\ProgramsTask.csproj",
         "projectName": "ProgramsTask",
-        "projectPath": "C:\\Users\\David Mboko\\Desktop\\Git\\ProgramsTask\\ProgramsTask\\ProgramsTask.csproj",
+        "projectPath": "C:\\Users\\David Mboko\\Desktop\\Git\\Capital-Placement-API\\ProgramsTask\\ProgramsTask.csproj",
         "packagesPath": "C:\\Users\\David Mboko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\David Mboko\\Desktop\\Git\\ProgramsTask\\ProgramsTask\\obj\\",
+        "outputPath": "C:\\Users\\David Mboko\\Desktop\\Git\\Capital-Placement-API\\ProgramsTask\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\David Mboko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\David Mboko\\Desktop\\Git\\ALX-Webstack-Portfolio-Project\\catalogueService\\lib": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
