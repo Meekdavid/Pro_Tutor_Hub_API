@@ -1,0 +1,50 @@
+2023-09-23 07:23:26.473 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-23 07:23:26.617 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-23 07:23:26.634 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-23 07:23:26.636 +01:00 [INF] Hosting environment: Development
+2023-09-23 07:23:26.637 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-23 07:23:29.380 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+2023-09-23 07:23:29.622 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 248.8539ms
+2023-09-23 07:23:29.683 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-23 07:23:30.405 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+2023-09-23 07:23:30.405 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-23 07:23:30.405 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+2023-09-23 07:23:30.405 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-23 07:23:30.405 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+2023-09-23 07:23:30.417 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 12.2006ms
+2023-09-23 07:23:30.420 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 736.7192ms
+2023-09-23 07:23:30.554 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 148.7609ms
+2023-09-23 07:23:30.556 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-23 07:23:30.556 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-23 07:23:30.576 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 171.4702ms
+2023-09-23 07:23:30.607 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-23 07:23:30.609 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 204.8114ms
+2023-09-23 07:23:30.610 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 205.0445ms
+2023-09-23 07:23:30.868 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-23 07:23:31.018 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 150.2177ms
+2023-09-23 13:56:03.408 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-23 13:56:03.495 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-23 13:56:03.508 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-23 13:56:03.510 +01:00 [INF] Hosting environment: Development
+2023-09-23 13:56:03.511 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-23 13:56:06.046 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-23 13:56:07.321 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1287.9433ms
+2023-09-23 13:56:07.347 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-23 13:56:07.347 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-23 13:56:07.510 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 162.1097ms
+2023-09-23 13:56:07.645 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 297.6834ms
+2023-09-23 13:56:07.773 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-23 13:56:07.858 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.1399ms
+2023-09-23 23:39:13.864 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-23 23:39:13.945 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-23 23:39:13.955 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-23 23:39:13.957 +01:00 [INF] Hosting environment: Development
+2023-09-23 23:39:13.958 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-23 23:39:18.142 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-23 23:39:19.552 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1469.0051ms
+2023-09-23 23:39:19.562 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-23 23:39:19.563 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-23 23:39:19.622 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 60.0056ms
+2023-09-23 23:39:20.031 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 467.7417ms
+2023-09-23 23:39:20.160 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-23 23:39:20.417 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 256.8409ms

@@ -1,0 +1,981 @@
+2023-09-27 03:01:55.042 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 03:01:55.167 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 03:01:55.181 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 03:01:55.183 +01:00 [INF] Hosting environment: Development
+2023-09-27 03:01:55.185 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 03:01:59.932 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 03:02:02.073 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 03:02:02.087 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 2179.0615ms
+2023-09-27 03:02:02.089 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 03:02:02.271 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 197.8382ms
+2023-09-27 03:02:02.376 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 287.0718ms
+2023-09-27 03:02:02.557 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 03:02:03.223 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 666.8087ms
+2023-09-27 03:02:32.846 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 635
+2023-09-27 03:02:32.876 +01:00 [INF] CORS policy execution successful.
+2023-09-27 03:02:32.888 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 03:02:32.975 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 03:04:13.120 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 03:04:13.198 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 100193.6352ms
+2023-09-27 03:04:13.212 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 03:04:13.215 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 635 - 200 74 application/json;+charset=utf-8 100368.7345ms
+2023-09-27 03:41:28.294 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 632
+2023-09-27 03:41:28.307 +01:00 [INF] CORS policy execution successful.
+2023-09-27 03:41:28.310 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 03:41:28.325 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 03:43:23.349 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 03:43:23.457 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 03:43:23.464 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 03:43:23.466 +01:00 [INF] Hosting environment: Development
+2023-09-27 03:43:23.468 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 03:43:27.960 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 03:43:29.429 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 03:43:29.430 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 03:43:29.470 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 38.6827ms
+2023-09-27 03:43:29.486 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1537.3095ms
+2023-09-27 03:43:29.669 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 239.2161ms
+2023-09-27 03:43:29.830 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 03:43:30.238 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 407.9652ms
+2023-09-27 03:44:06.539 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 632
+2023-09-27 03:44:06.561 +01:00 [INF] CORS policy execution successful.
+2023-09-27 03:44:06.573 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 03:44:06.655 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 03:45:56.142 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 03:45:56.236 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 03:45:56.243 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 03:45:56.244 +01:00 [INF] Hosting environment: Development
+2023-09-27 03:45:56.245 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 03:45:59.689 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 03:46:00.622 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 03:46:00.623 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 03:46:00.650 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 26.1329ms
+2023-09-27 03:46:00.683 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1009.0516ms
+2023-09-27 03:46:00.742 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 119.4387ms
+2023-09-27 03:46:00.942 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 03:46:01.247 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 305.3510ms
+2023-09-27 03:47:11.026 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1201
+2023-09-27 03:47:11.039 +01:00 [INF] CORS policy execution successful.
+2023-09-27 03:47:11.050 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 03:47:11.102 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 03:49:56.582 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 03:49:56.662 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 03:49:56.673 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 03:49:56.675 +01:00 [INF] Hosting environment: Development
+2023-09-27 03:49:56.676 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 03:50:02.168 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 03:50:03.150 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 988.5573ms
+2023-09-27 03:50:03.175 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 03:50:03.175 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 03:50:03.248 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 72.7501ms
+2023-09-27 03:50:03.329 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 154.0475ms
+2023-09-27 03:50:03.431 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 03:50:03.683 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 251.3022ms
+2023-09-27 03:50:34.670 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 632
+2023-09-27 03:50:34.715 +01:00 [INF] CORS policy execution successful.
+2023-09-27 03:50:34.727 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 03:50:34.784 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 03:54:04.465 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 03:54:04.557 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 03:54:04.569 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 03:54:04.571 +01:00 [INF] Hosting environment: Development
+2023-09-27 03:54:04.572 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 03:54:08.986 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 03:54:10.632 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 03:54:10.632 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 03:54:10.658 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 22.2438ms
+2023-09-27 03:54:10.665 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1694.2905ms
+2023-09-27 03:54:10.793 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 160.7292ms
+2023-09-27 03:54:10.961 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 03:54:11.387 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 425.8859ms
+2023-09-27 03:54:33.589 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 619
+2023-09-27 03:54:33.613 +01:00 [INF] CORS policy execution successful.
+2023-09-27 03:54:33.622 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 03:54:33.691 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 03:55:27.454 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 03:55:27.541 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 03:55:27.552 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 03:55:27.554 +01:00 [INF] Hosting environment: Development
+2023-09-27 03:55:27.556 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 03:55:31.390 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 03:55:32.254 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 03:55:32.254 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 03:55:32.260 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 877.8284ms
+2023-09-27 03:55:32.272 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 17.9683ms
+2023-09-27 03:55:32.380 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 125.8920ms
+2023-09-27 03:55:32.596 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 03:55:32.883 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 286.5271ms
+2023-09-27 03:56:15.148 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 622
+2023-09-27 03:56:15.179 +01:00 [INF] CORS policy execution successful.
+2023-09-27 03:56:15.194 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 03:56:15.289 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 03:57:35.957 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 03:57:36.039 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 03:57:36.048 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 03:57:36.051 +01:00 [INF] Hosting environment: Development
+2023-09-27 03:57:36.052 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 03:57:41.476 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 03:57:42.760 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 03:57:42.760 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 03:57:42.788 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 26.6956ms
+2023-09-27 03:57:42.794 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1331.2896ms
+2023-09-27 03:57:42.927 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 166.8057ms
+2023-09-27 03:57:43.075 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 03:57:43.599 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 523.6741ms
+2023-09-27 03:58:04.504 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 635
+2023-09-27 03:58:04.531 +01:00 [INF] CORS policy execution successful.
+2023-09-27 03:58:04.537 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 03:58:04.596 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 03:59:28.239 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 03:59:28.345 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 03:59:28.355 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 03:59:28.357 +01:00 [INF] Hosting environment: Development
+2023-09-27 03:59:28.358 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 03:59:33.812 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 03:59:35.310 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 03:59:35.311 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 03:59:35.329 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1529.2122ms
+2023-09-27 03:59:35.362 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 51.6154ms
+2023-09-27 03:59:35.475 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 164.6444ms
+2023-09-27 03:59:36.076 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 03:59:36.707 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 631.0030ms
+2023-09-27 04:03:07.725 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 04:03:07.816 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 04:03:07.826 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 04:03:07.829 +01:00 [INF] Hosting environment: Development
+2023-09-27 04:03:07.831 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 04:03:17.586 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 04:03:19.552 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 04:03:19.552 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 04:03:19.610 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 2047.8467ms
+2023-09-27 04:03:19.615 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 62.5256ms
+2023-09-27 04:03:19.752 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 206.8346ms
+2023-09-27 04:03:19.940 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 04:03:20.783 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 843.1096ms
+2023-09-27 04:03:49.458 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 635
+2023-09-27 04:03:49.509 +01:00 [INF] CORS policy execution successful.
+2023-09-27 04:03:49.543 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:03:49.790 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 04:07:11.790 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 04:07:12.071 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 04:07:12.104 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 04:07:12.129 +01:00 [INF] Hosting environment: Development
+2023-09-27 04:07:12.131 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 04:07:23.501 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 04:07:25.764 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 04:07:25.764 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 04:07:25.804 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 31.2261ms
+2023-09-27 04:07:25.811 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 2331.3325ms
+2023-09-27 04:07:25.960 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 195.4943ms
+2023-09-27 04:07:26.148 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 04:07:26.645 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 496.8761ms
+2023-09-27 04:07:58.717 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 641
+2023-09-27 04:07:58.794 +01:00 [INF] CORS policy execution successful.
+2023-09-27 04:07:58.836 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:07:59.054 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 04:14:59.358 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 04:14:59.501 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 04:14:59.516 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 04:14:59.521 +01:00 [INF] Hosting environment: Development
+2023-09-27 04:14:59.525 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 04:15:13.249 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 04:15:15.578 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 04:15:15.629 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 04:15:15.643 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 2426.3008ms
+2023-09-27 04:15:15.679 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 100.9502ms
+2023-09-27 04:15:15.981 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 350.9103ms
+2023-09-27 04:15:16.295 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 04:15:16.823 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 528.4925ms
+2023-09-27 04:15:41.181 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 635
+2023-09-27 04:15:41.241 +01:00 [INF] CORS policy execution successful.
+2023-09-27 04:15:41.273 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:15:41.426 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 04:16:48.588 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 04:16:48.687 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 67200.0836ms
+2023-09-27 04:16:48.770 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:16:48.809 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 635 - 200 74 application/json;+charset=utf-8 67628.7517ms
+2023-09-27 04:16:55.175 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 635
+2023-09-27 04:16:55.221 +01:00 [INF] CORS policy execution successful.
+2023-09-27 04:16:55.234 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:16:55.242 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 04:27:05.951 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 04:27:06.205 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 04:27:06.271 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 04:27:06.277 +01:00 [INF] Hosting environment: Development
+2023-09-27 04:27:06.284 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 04:27:17.075 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 04:27:19.026 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1970.8329ms
+2023-09-27 04:27:19.056 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 04:27:19.064 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 04:27:19.163 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 108.3654ms
+2023-09-27 04:27:19.326 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 262.0157ms
+2023-09-27 04:27:19.529 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 04:27:20.135 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 605.4828ms
+2023-09-27 04:27:41.220 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 635
+2023-09-27 04:27:41.271 +01:00 [INF] CORS policy execution successful.
+2023-09-27 04:27:41.293 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:27:41.488 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 04:29:04.221 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 04:29:04.357 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 82803.9343ms
+2023-09-27 04:29:04.376 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:29:04.398 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 635 - 200 74 application/json;+charset=utf-8 83178.5168ms
+2023-09-27 04:29:15.475 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 636
+2023-09-27 04:29:15.598 +01:00 [INF] CORS policy execution successful.
+2023-09-27 04:29:15.643 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:29:15.664 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 04:32:32.871 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 04:32:32.875 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 197149.2595ms
+2023-09-27 04:32:32.891 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:32:32.912 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 636 - 200 74 application/json;+charset=utf-8 197438.7573ms
+2023-09-27 04:32:38.526 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 636
+2023-09-27 04:32:38.608 +01:00 [INF] CORS policy execution successful.
+2023-09-27 04:32:38.611 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:32:38.627 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 04:33:48.026 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 04:33:48.221 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 04:33:48.242 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 04:33:48.245 +01:00 [INF] Hosting environment: Development
+2023-09-27 04:33:48.247 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 04:34:01.460 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 04:34:03.036 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 04:34:03.039 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 04:34:03.052 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1608.4451ms
+2023-09-27 04:34:03.087 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 51.6071ms
+2023-09-27 04:34:03.288 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 249.6233ms
+2023-09-27 04:34:03.554 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 04:34:04.241 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 686.7627ms
+2023-09-27 04:34:23.816 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 636
+2023-09-27 04:34:23.971 +01:00 [INF] CORS policy execution successful.
+2023-09-27 04:34:24.088 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:34:24.332 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 04:35:41.762 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 04:35:41.850 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 77427.4902ms
+2023-09-27 04:35:41.873 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:35:41.888 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 636 - 200 74 application/json;+charset=utf-8 78071.7048ms
+2023-09-27 04:35:49.654 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 635
+2023-09-27 04:35:49.687 +01:00 [INF] CORS policy execution successful.
+2023-09-27 04:35:49.700 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:35:49.712 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 04:37:33.727 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 04:37:33.911 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 04:37:33.927 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 04:37:33.930 +01:00 [INF] Hosting environment: Development
+2023-09-27 04:37:33.932 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 04:37:45.828 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 04:37:47.924 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 04:37:47.930 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 04:37:47.999 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 2180.2658ms
+2023-09-27 04:37:48.094 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 170.0181ms
+2023-09-27 04:37:48.415 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 484.3953ms
+2023-09-27 04:37:48.603 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 04:37:49.314 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 711.5785ms
+2023-09-27 04:38:09.231 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 635
+2023-09-27 04:38:09.310 +01:00 [INF] CORS policy execution successful.
+2023-09-27 04:38:09.385 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:38:09.692 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 04:40:30.653 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 04:40:30.843 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 04:40:30.872 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 04:40:30.877 +01:00 [INF] Hosting environment: Development
+2023-09-27 04:40:30.880 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 04:40:43.508 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 04:40:45.962 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 04:40:45.974 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 04:40:46.037 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 2553.9682ms
+2023-09-27 04:40:46.076 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 113.5947ms
+2023-09-27 04:40:46.216 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 241.7077ms
+2023-09-27 04:40:46.476 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 04:40:47.385 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 908.9185ms
+2023-09-27 04:41:08.934 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 635
+2023-09-27 04:41:09.039 +01:00 [INF] CORS policy execution successful.
+2023-09-27 04:41:09.110 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:41:09.373 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 04:47:05.496 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 04:47:05.661 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 04:47:05.676 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 04:47:05.679 +01:00 [INF] Hosting environment: Development
+2023-09-27 04:47:05.680 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 04:47:18.450 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 04:47:20.368 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 04:47:20.368 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 04:47:20.403 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 22.7488ms
+2023-09-27 04:47:20.419 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1995.8899ms
+2023-09-27 04:47:20.603 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 235.2387ms
+2023-09-27 04:47:20.868 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 04:47:21.553 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 685.3582ms
+2023-09-27 04:47:52.530 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 635
+2023-09-27 04:47:52.573 +01:00 [INF] CORS policy execution successful.
+2023-09-27 04:47:52.616 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 04:47:52.839 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 08:39:04.336 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 08:39:04.466 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 08:39:04.481 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 08:39:04.484 +01:00 [INF] Hosting environment: Development
+2023-09-27 08:39:04.486 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 08:39:15.789 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 08:39:17.777 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 08:39:17.802 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 08:39:17.911 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 114.5790ms
+2023-09-27 08:39:17.917 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 2149.1372ms
+2023-09-27 08:39:18.057 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 255.5907ms
+2023-09-27 08:39:18.269 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 08:39:18.946 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 676.9358ms
+2023-09-27 08:39:48.259 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 636
+2023-09-27 08:39:48.318 +01:00 [INF] CORS policy execution successful.
+2023-09-27 08:39:48.391 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 08:39:48.688 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 08:45:56.565 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 08:45:56.691 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 08:45:56.711 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 08:45:56.713 +01:00 [INF] Hosting environment: Development
+2023-09-27 08:45:56.714 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 08:46:00.315 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 08:46:01.418 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 08:46:01.418 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 08:46:01.439 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1138.3533ms
+2023-09-27 08:46:01.455 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 36.3825ms
+2023-09-27 08:46:01.600 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 181.8869ms
+2023-09-27 08:46:01.834 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 08:46:02.217 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 383.3307ms
+2023-09-27 08:46:40.058 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 633
+2023-09-27 08:46:40.078 +01:00 [INF] CORS policy execution successful.
+2023-09-27 08:46:40.090 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 08:46:40.160 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 08:48:50.520 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 08:48:50.609 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 08:48:50.617 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 08:48:50.618 +01:00 [INF] Hosting environment: Development
+2023-09-27 08:48:50.619 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 08:48:56.078 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 08:48:57.159 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1084.9511ms
+2023-09-27 08:48:57.163 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 08:48:57.163 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 08:48:57.209 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 45.4364ms
+2023-09-27 08:48:57.319 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 155.7568ms
+2023-09-27 08:48:57.477 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 08:48:57.993 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 516.8089ms
+2023-09-27 08:49:31.477 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 646
+2023-09-27 08:49:31.512 +01:00 [INF] CORS policy execution successful.
+2023-09-27 08:49:31.532 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 08:49:31.601 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 08:50:01.589 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 08:50:01.624 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 30013.015ms
+2023-09-27 08:50:01.632 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 08:50:01.637 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 646 - 200 583 application/json;+charset=utf-8 30160.3098ms
+2023-09-27 08:51:23.885 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 635
+2023-09-27 08:51:23.894 +01:00 [INF] CORS policy execution successful.
+2023-09-27 08:51:23.904 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 08:51:23.910 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 08:52:21.053 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 08:52:21.057 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 57144.1307ms
+2023-09-27 08:52:21.059 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 08:52:21.061 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 635 - 200 572 application/json;+charset=utf-8 57176.1052ms
+2023-09-27 08:52:22.226 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 08:52:22.399 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 172.9482ms
+2023-09-27 08:52:22.404 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 08:52:22.405 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 08:52:22.414 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.1905ms
+2023-09-27 08:52:22.575 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 170.3230ms
+2023-09-27 08:52:22.675 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 08:52:22.729 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 53.1069ms
+2023-09-27 08:59:31.852 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 08:59:31.947 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 08:59:31.959 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 08:59:31.961 +01:00 [INF] Hosting environment: Development
+2023-09-27 08:59:31.962 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 08:59:37.096 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 08:59:38.066 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 08:59:38.066 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 08:59:38.073 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 987.7305ms
+2023-09-27 08:59:38.166 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 99.5279ms
+2023-09-27 08:59:38.261 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 195.1640ms
+2023-09-27 08:59:38.396 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 08:59:38.674 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 278.2002ms
+2023-09-27 09:00:26.187 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 656
+2023-09-27 09:00:26.227 +01:00 [INF] CORS policy execution successful.
+2023-09-27 09:00:26.236 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 09:00:26.290 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 09:00:30.894 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 09:00:30.959 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 4657.4205ms
+2023-09-27 09:00:30.973 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 09:00:30.977 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 656 - 200 593 application/json;+charset=utf-8 4790.4325ms
+2023-09-27 09:03:15.810 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/api/Single Program?userID=123 - -
+2023-09-27 09:03:15.819 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro)'
+2023-09-27 09:03:15.824 +01:00 [INF] Route matched with {action = "RetrieveProgramsByUserID", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] RetrieveProgramsByUserID(System.String) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 09:03:16.475 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 09:03:16.494 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro) in 667.3013ms
+2023-09-27 09:03:16.508 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro)'
+2023-09-27 09:03:16.520 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/api/Single Program?userID=123 - - - 200 274 application/json;+charset=utf-8 709.6862ms
+2023-09-27 09:04:09.320 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/api/Single Program?userID=123 - -
+2023-09-27 09:04:09.333 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro)'
+2023-09-27 09:04:09.335 +01:00 [INF] Route matched with {action = "RetrieveProgramsByUserID", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] RetrieveProgramsByUserID(System.String) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 09:05:56.581 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 09:05:56.595 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro) in 107257.2381ms
+2023-09-27 09:05:56.619 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro)'
+2023-09-27 09:05:56.622 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/api/Single Program?userID=123 - - - 200 274 application/json;+charset=utf-8 107302.1710ms
+2023-09-27 09:06:02.826 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/api/Single Program?userID=130 - -
+2023-09-27 09:06:02.833 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro)'
+2023-09-27 09:06:02.848 +01:00 [INF] Route matched with {action = "RetrieveProgramsByUserID", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] RetrieveProgramsByUserID(System.String) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 09:06:02.871 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 09:06:02.873 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro) in 9.3073ms
+2023-09-27 09:06:02.879 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro)'
+2023-09-27 09:06:02.891 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/api/Single Program?userID=130 - - - 200 585 application/json;+charset=utf-8 64.9810ms
+2023-09-27 09:06:15.024 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/api/Single Program?userID=123 - -
+2023-09-27 09:06:15.034 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro)'
+2023-09-27 09:06:15.048 +01:00 [INF] Route matched with {action = "RetrieveProgramsByUserID", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] RetrieveProgramsByUserID(System.String) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 09:06:15.074 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 09:06:15.075 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro) in 9.0532ms
+2023-09-27 09:06:15.077 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro)'
+2023-09-27 09:06:15.078 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/api/Single Program?userID=123 - - - 200 274 application/json;+charset=utf-8 54.0866ms
+2023-09-27 09:08:18.047 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/api/Single Program?userID=128 - -
+2023-09-27 09:08:18.048 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro)'
+2023-09-27 09:08:18.053 +01:00 [INF] Route matched with {action = "RetrieveProgramsByUserID", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] RetrieveProgramsByUserID(System.String) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 09:08:18.063 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 09:08:18.067 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro) in 11.2413ms
+2023-09-27 09:08:18.072 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro)'
+2023-09-27 09:08:18.073 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/api/Single Program?userID=128 - - - 200 74 application/json;+charset=utf-8 25.8858ms
+2023-09-27 09:08:24.164 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/api/Single Program?userID=128 - -
+2023-09-27 09:08:24.166 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro)'
+2023-09-27 09:08:24.167 +01:00 [INF] Route matched with {action = "RetrieveProgramsByUserID", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] RetrieveProgramsByUserID(System.String) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 09:08:24.187 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 09:08:24.193 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro) in 22.8805ms
+2023-09-27 09:08:24.203 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.RetrieveProgramsByUserID (APIAccessPro)'
+2023-09-27 09:08:24.205 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/api/Single Program?userID=128 - - - 200 74 application/json;+charset=utf-8 41.1517ms
+2023-09-27 09:45:38.186 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 09:45:38.252 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 09:45:38.260 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 09:45:38.265 +01:00 [INF] Hosting environment: Development
+2023-09-27 09:45:38.269 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 09:45:40.989 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 09:45:42.399 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 09:45:42.400 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 09:45:42.430 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 27.5689ms
+2023-09-27 09:45:42.446 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1467.2873ms
+2023-09-27 09:45:42.540 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 140.9305ms
+2023-09-27 09:45:42.711 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 09:45:43.354 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 643.0859ms
+2023-09-27 09:49:06.164 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 873
+2023-09-27 09:49:06.192 +01:00 [INF] CORS policy execution successful.
+2023-09-27 09:49:06.201 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 09:49:06.255 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 09:50:20.238 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 09:50:20.357 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 09:50:20.377 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 09:50:20.379 +01:00 [INF] Hosting environment: Development
+2023-09-27 09:50:20.381 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 09:50:25.244 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 09:50:26.585 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 09:50:26.585 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 09:50:26.633 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1404.2139ms
+2023-09-27 09:50:26.659 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 73.7777ms
+2023-09-27 09:50:26.763 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 177.2475ms
+2023-09-27 09:50:26.945 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 09:50:27.321 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 375.9018ms
+2023-09-27 09:51:46.583 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 886
+2023-09-27 09:51:46.611 +01:00 [INF] CORS policy execution successful.
+2023-09-27 09:51:46.620 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 09:51:46.688 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 09:53:38.927 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 09:53:39.032 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 09:53:39.044 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 09:53:39.046 +01:00 [INF] Hosting environment: Development
+2023-09-27 09:53:39.046 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 09:53:44.452 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 09:53:45.456 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 09:53:45.458 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 09:53:45.499 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1052.1021ms
+2023-09-27 09:53:45.542 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 85.3101ms
+2023-09-27 09:53:45.845 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 386.8640ms
+2023-09-27 09:53:45.963 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 09:53:46.374 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 411.6925ms
+2023-09-27 09:54:52.800 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 638
+2023-09-27 09:54:52.819 +01:00 [INF] CORS policy execution successful.
+2023-09-27 09:54:52.833 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 09:54:52.910 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 09:55:35.916 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 09:55:36.010 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 09:55:36.020 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 09:55:36.023 +01:00 [INF] Hosting environment: Development
+2023-09-27 09:55:36.024 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 09:55:40.553 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 09:55:42.128 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1588.7359ms
+2023-09-27 09:55:42.167 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 09:55:42.167 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 09:55:42.217 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 50.3386ms
+2023-09-27 09:55:42.282 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 114.7359ms
+2023-09-27 09:55:42.447 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 09:55:42.993 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 546.0508ms
+2023-09-27 09:57:00.824 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1189
+2023-09-27 09:57:00.839 +01:00 [INF] CORS policy execution successful.
+2023-09-27 09:57:00.849 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 09:57:00.904 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 09:57:16.685 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 09:57:16.755 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 15829.7682ms
+2023-09-27 09:57:16.775 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 09:57:16.780 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1189 - 200 74 application/json;+charset=utf-8 15955.9791ms
+2023-09-27 09:57:26.302 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204
+2023-09-27 09:57:26.313 +01:00 [INF] CORS policy execution successful.
+2023-09-27 09:57:26.315 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 09:57:26.317 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 09:57:38.835 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 09:57:38.849 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 12515.9177ms
+2023-09-27 09:57:38.852 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 09:57:38.862 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204 - 200 74 application/json;+charset=utf-8 12560.0992ms
+2023-09-27 09:57:53.600 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1189
+2023-09-27 09:57:53.602 +01:00 [INF] CORS policy execution successful.
+2023-09-27 09:57:53.603 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 09:57:53.605 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 09:58:13.823 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 09:58:13.838 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 20216.7388ms
+2023-09-27 09:58:13.840 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 09:58:13.846 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1189 - 200 74 application/json;+charset=utf-8 20247.1773ms
+2023-09-27 09:58:28.034 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204
+2023-09-27 09:58:28.036 +01:00 [INF] CORS policy execution successful.
+2023-09-27 09:58:28.037 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 09:58:28.038 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 09:58:52.655 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 09:58:52.666 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 24613.6003ms
+2023-09-27 09:58:52.669 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 09:58:52.672 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204 - 200 74 application/json;+charset=utf-8 24637.8248ms
+2023-09-27 10:02:49.505 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 10:02:49.592 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 10:02:49.601 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 10:02:49.605 +01:00 [INF] Hosting environment: Development
+2023-09-27 10:02:49.609 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 10:02:53.740 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 10:02:55.182 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 10:02:55.209 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1480.3340ms
+2023-09-27 10:02:55.182 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 10:02:55.244 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 61.7476ms
+2023-09-27 10:02:55.359 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 176.7151ms
+2023-09-27 10:02:55.519 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 10:02:56.102 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 584.1867ms
+2023-09-27 10:03:22.863 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1189
+2023-09-27 10:03:22.893 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:03:22.911 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:03:22.967 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:03:36.527 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 10:03:36.587 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 13599.2142ms
+2023-09-27 10:03:36.603 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:03:36.610 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1189 - 200 74 application/json;+charset=utf-8 13745.9464ms
+2023-09-27 10:04:12.777 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 10:04:12.859 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 10:04:12.869 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 10:04:12.877 +01:00 [INF] Hosting environment: Development
+2023-09-27 10:04:12.878 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 10:04:19.037 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 10:04:19.912 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 10:04:19.912 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 10:04:19.930 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 900.5885ms
+2023-09-27 10:04:19.955 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 43.1042ms
+2023-09-27 10:04:20.050 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 138.2813ms
+2023-09-27 10:04:20.180 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 10:04:20.565 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 385.8823ms
+2023-09-27 10:04:37.160 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204
+2023-09-27 10:04:37.190 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:04:37.203 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:04:37.286 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:04:54.059 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 10:04:54.113 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 16812.1254ms
+2023-09-27 10:04:54.124 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:04:54.126 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204 - 200 275 application/json;+charset=utf-8 16965.9781ms
+2023-09-27 10:05:46.530 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204
+2023-09-27 10:05:46.536 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:05:46.537 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:05:46.541 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:05:50.458 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 10:05:50.462 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 3909.8586ms
+2023-09-27 10:05:50.465 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:05:50.466 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204 - 200 275 application/json;+charset=utf-8 3936.2603ms
+2023-09-27 10:09:52.568 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204
+2023-09-27 10:09:52.569 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:09:52.571 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:09:52.573 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:09:59.050 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 10:09:59.052 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 6476.3725ms
+2023-09-27 10:09:59.054 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:09:59.056 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204 - 200 275 application/json;+charset=utf-8 6488.1332ms
+2023-09-27 10:11:21.331 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204
+2023-09-27 10:11:21.337 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:11:21.339 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:11:21.348 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:11:27.215 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 10:11:27.217 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 5863.0855ms
+2023-09-27 10:11:27.225 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:11:27.226 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204 - 200 74 application/json;+charset=utf-8 5895.7579ms
+2023-09-27 10:13:04.133 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 10:13:04.256 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 10:13:04.269 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 10:13:04.273 +01:00 [INF] Hosting environment: Development
+2023-09-27 10:13:04.277 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 10:13:08.356 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 10:13:09.593 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 10:13:09.593 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 10:13:09.654 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1318.3473ms
+2023-09-27 10:13:09.718 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 124.8074ms
+2023-09-27 10:13:09.826 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 232.4499ms
+2023-09-27 10:13:09.998 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 10:13:10.371 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 373.0500ms
+2023-09-27 10:13:31.250 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204
+2023-09-27 10:13:31.285 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:13:31.306 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:13:31.390 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:15:28.347 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 10:15:28.423 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 10:15:28.434 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 10:15:28.436 +01:00 [INF] Hosting environment: Development
+2023-09-27 10:15:28.437 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 10:15:32.957 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 10:15:33.933 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 10:15:33.933 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 10:15:34.019 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1066.4762ms
+2023-09-27 10:15:34.046 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 106.5677ms
+2023-09-27 10:15:34.155 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 222.1162ms
+2023-09-27 10:15:34.301 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 10:15:34.629 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 328.1726ms
+2023-09-27 10:15:56.214 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204
+2023-09-27 10:15:56.243 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:15:56.261 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:15:56.334 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:17:32.432 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 10:17:32.551 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 10:17:32.561 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 10:17:32.566 +01:00 [INF] Hosting environment: Development
+2023-09-27 10:17:32.567 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 10:17:37.113 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 10:17:38.203 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 10:17:38.204 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 10:17:38.223 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 18.1686ms
+2023-09-27 10:17:38.239 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1142.6672ms
+2023-09-27 10:17:38.322 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 118.4639ms
+2023-09-27 10:17:38.462 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 10:17:38.777 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 314.7388ms
+2023-09-27 10:17:50.832 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204
+2023-09-27 10:17:50.869 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:17:50.894 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:17:51.030 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:17:52.784 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Global.FilterResponse'.
+2023-09-27 10:17:52.924 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 1858.6378ms
+2023-09-27 10:17:52.962 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:17:52.964 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204 - 400 477 application/json;+charset=utf-8 2131.4673ms
+2023-09-27 10:19:34.738 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204
+2023-09-27 10:19:34.779 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:19:34.788 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:19:34.790 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:19:34.809 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Global.FilterResponse'.
+2023-09-27 10:19:34.826 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 18.519ms
+2023-09-27 10:19:34.831 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:19:34.833 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204 - 400 477 application/json;+charset=utf-8 94.5036ms
+2023-09-27 10:19:36.362 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204
+2023-09-27 10:19:36.364 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:19:36.366 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:19:36.371 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:19:36.387 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Global.FilterResponse'.
+2023-09-27 10:19:36.390 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 4.5811ms
+2023-09-27 10:19:36.392 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:19:36.394 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1204 - 400 477 application/json;+charset=utf-8 32.0522ms
+2023-09-27 10:36:17.398 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7196/api/Add Program - -
+2023-09-27 10:36:17.415 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:36:17.451 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7196/api/Add Program - - - 204 - - 52.5495ms
+2023-09-27 10:36:17.468 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1240
+2023-09-27 10:36:17.476 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:36:17.478 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:36:17.480 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:36:17.486 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Global.FilterResponse'.
+2023-09-27 10:36:17.489 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 4.588ms
+2023-09-27 10:36:17.510 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:36:17.512 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1240 - 400 477 application/json;+charset=utf-8 44.3534ms
+2023-09-27 10:42:12.432 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7196/api/Add Program - -
+2023-09-27 10:42:12.465 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:42:12.468 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7196/api/Add Program - - - 204 - - 35.2837ms
+2023-09-27 10:42:12.498 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1240
+2023-09-27 10:42:12.573 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:42:12.575 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:42:12.580 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:42:12.666 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Global.FilterResponse'.
+2023-09-27 10:42:12.672 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 6.4584ms
+2023-09-27 10:42:12.698 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:42:12.700 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1240 - 400 477 application/json;+charset=utf-8 201.8981ms
+2023-09-27 10:43:11.653 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 10:43:11.786 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 10:43:11.802 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 10:43:11.831 +01:00 [INF] Hosting environment: Development
+2023-09-27 10:43:11.838 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 10:43:23.691 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 10:43:25.910 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 10:43:25.910 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 10:43:25.988 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 2303.3328ms
+2023-09-27 10:43:26.302 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 391.8836ms
+2023-09-27 10:43:26.423 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 512.3762ms
+2023-09-27 10:43:27.241 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 10:43:27.561 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 320.3936ms
+2023-09-27 10:43:40.576 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7196/api/Add Program - -
+2023-09-27 10:43:40.620 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:43:40.637 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7196/api/Add Program - - - 204 - - 61.2593ms
+2023-09-27 10:43:40.647 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1240
+2023-09-27 10:43:40.738 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:43:40.771 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:43:40.952 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:43:46.023 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Global.FilterResponse'.
+2023-09-27 10:43:46.212 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 5197.032ms
+2023-09-27 10:43:46.408 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:43:46.419 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1240 - 400 477 application/json;+charset=utf-8 5772.0067ms
+2023-09-27 10:43:51.784 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7196/api/Add Program - -
+2023-09-27 10:43:51.816 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:43:51.836 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7196/api/Add Program - - - 204 - - 52.2456ms
+2023-09-27 10:43:51.848 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 1240
+2023-09-27 10:43:51.852 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:43:51.874 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:43:51.893 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:43:51.903 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Global.FilterResponse'.
+2023-09-27 10:43:51.964 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 65.024ms
+2023-09-27 10:43:52.026 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:43:52.031 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 1240 - 400 477 application/json;+charset=utf-8 182.9098ms
+2023-09-27 10:44:30.157 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 638
+2023-09-27 10:44:30.193 +01:00 [INF] CORS policy execution successful.
+2023-09-27 10:44:30.221 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:44:30.274 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 10:44:43.310 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 10:44:43.343 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 13020.6005ms
+2023-09-27 10:44:43.357 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 10:44:43.361 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 638 - 200 575 application/json;+charset=utf-8 13203.8529ms
+2023-09-27 11:09:34.713 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 11:09:34.795 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 11:09:34.812 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 11:09:34.816 +01:00 [INF] Hosting environment: Development
+2023-09-27 11:09:34.817 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 11:09:40.097 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 11:09:41.154 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 11:09:41.154 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 11:09:41.200 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 46.3596ms
+2023-09-27 11:09:41.187 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1093.3819ms
+2023-09-27 11:09:41.321 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 166.5837ms
+2023-09-27 11:09:41.492 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 11:09:41.907 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 414.6164ms
+2023-09-27 11:10:20.183 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 642
+2023-09-27 11:10:20.216 +01:00 [INF] CORS policy execution successful.
+2023-09-27 11:10:20.240 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 11:10:20.338 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 11:10:24.762 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 11:10:24.795 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 4437.8467ms
+2023-09-27 11:10:24.813 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 11:10:24.817 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 642 - 200 74 application/json;+charset=utf-8 4634.3388ms
+2023-09-27 11:11:24.358 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 643
+2023-09-27 11:11:24.385 +01:00 [INF] CORS policy execution successful.
+2023-09-27 11:11:24.386 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 11:11:24.392 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 11:11:24.448 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 11:11:24.450 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 51.8461ms
+2023-09-27 11:11:24.457 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 11:11:24.458 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 643 - 200 74 application/json;+charset=utf-8 100.5333ms
+2023-09-27 11:12:49.094 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 643
+2023-09-27 11:12:49.103 +01:00 [INF] CORS policy execution successful.
+2023-09-27 11:12:49.105 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 11:12:49.106 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 11:29:25.673 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 11:29:25.767 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 11:29:25.776 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 11:29:25.783 +01:00 [INF] Hosting environment: Development
+2023-09-27 11:29:25.785 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 11:29:31.482 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 11:29:32.528 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 11:29:32.546 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1072.7256ms
+2023-09-27 11:29:32.539 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 11:29:32.554 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 25.7738ms
+2023-09-27 11:29:32.652 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 112.6367ms
+2023-09-27 11:29:32.769 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 11:29:33.064 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 294.9879ms
+2023-09-27 12:20:29.013 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 12:20:29.190 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 12:20:29.225 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 12:20:29.245 +01:00 [INF] Hosting environment: Development
+2023-09-27 12:20:29.264 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 12:20:42.888 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 12:20:44.651 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 12:20:44.651 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 12:20:44.680 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 25.9387ms
+2023-09-27 12:20:44.719 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1845.9412ms
+2023-09-27 12:20:44.953 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 301.1664ms
+2023-09-27 12:20:45.204 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 12:20:45.720 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 515.8118ms
+2023-09-27 12:21:29.197 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 638
+2023-09-27 12:21:29.244 +01:00 [INF] CORS policy execution successful.
+2023-09-27 12:21:29.274 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 12:21:29.434 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 12:30:58.458 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 12:30:58.627 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 12:30:58.642 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 12:30:58.653 +01:00 [INF] Hosting environment: Development
+2023-09-27 12:30:58.656 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 12:31:12.622 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 12:31:14.616 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 12:31:14.617 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 12:31:14.621 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 2033.1875ms
+2023-09-27 12:31:14.715 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 97.7698ms
+2023-09-27 12:31:14.886 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 270.0533ms
+2023-09-27 12:31:15.074 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 12:31:15.715 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 641.1885ms
+2023-09-27 14:01:41.827 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 14:01:41.916 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 14:01:41.928 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 14:01:41.932 +01:00 [INF] Hosting environment: Development
+2023-09-27 14:01:41.936 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 14:01:47.366 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 14:01:48.556 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 14:01:48.558 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 14:01:48.560 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1203.8182ms
+2023-09-27 14:01:48.594 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 37.5670ms
+2023-09-27 14:01:48.642 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 84.0360ms
+2023-09-27 14:01:48.793 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 14:01:49.075 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 282.0779ms
+2023-09-27 14:03:00.773 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Add Program application/json 645
+2023-09-27 14:03:00.788 +01:00 [INF] CORS policy execution successful.
+2023-09-27 14:03:00.799 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 14:03:00.886 +01:00 [INF] Route matched with {action = "AddPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] AddPrograms(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 14:03:32.582 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 14:03:32.617 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro) in 31682.4436ms
+2023-09-27 14:03:32.631 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.AddPrograms (APIAccessPro)'
+2023-09-27 14:03:32.643 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Add Program application/json 645 - 200 74 application/json;+charset=utf-8 31870.5077ms
+2023-09-27 14:04:35.792 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 645
+2023-09-27 14:04:35.813 +01:00 [INF] CORS policy execution successful.
+2023-09-27 14:04:35.815 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:04:35.819 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 14:05:23.789 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 14:05:23.793 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 47960.4508ms
+2023-09-27 14:05:23.795 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:05:23.797 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 645 - 200 74 application/json;+charset=utf-8 48004.5516ms
+2023-09-27 14:05:54.429 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 645
+2023-09-27 14:05:54.433 +01:00 [INF] CORS policy execution successful.
+2023-09-27 14:05:54.435 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:05:54.478 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 14:18:53.823 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 14:18:53.922 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 14:18:53.933 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 14:18:53.935 +01:00 [INF] Hosting environment: Development
+2023-09-27 14:18:53.936 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 14:19:00.306 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 14:19:01.574 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 14:19:01.574 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 14:19:01.577 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1280.6259ms
+2023-09-27 14:19:01.597 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 23.6207ms
+2023-09-27 14:19:01.689 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 115.4917ms
+2023-09-27 14:19:01.867 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 14:19:02.346 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 479.5544ms
+2023-09-27 14:19:28.853 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 648
+2023-09-27 14:19:28.870 +01:00 [INF] CORS policy execution successful.
+2023-09-27 14:19:28.876 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:19:28.952 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 14:20:01.415 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 14:20:01.447 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 32482.3583ms
+2023-09-27 14:20:01.454 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:20:01.455 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 648 - 200 585 application/json;+charset=utf-8 32602.2918ms
+2023-09-27 14:20:58.167 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 632
+2023-09-27 14:20:58.183 +01:00 [INF] CORS policy execution successful.
+2023-09-27 14:20:58.195 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:20:58.202 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 14:21:02.573 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 14:21:02.580 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 4355.3642ms
+2023-09-27 14:21:02.588 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:21:02.590 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 632 - 200 585 application/json;+charset=utf-8 4422.6783ms
+2023-09-27 14:22:51.875 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 638
+2023-09-27 14:22:51.893 +01:00 [INF] CORS policy execution successful.
+2023-09-27 14:22:51.914 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:22:51.926 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 14:22:56.764 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 14:22:56.817 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 4869.4127ms
+2023-09-27 14:22:56.822 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:22:56.834 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 638 - 200 575 application/json;+charset=utf-8 4959.4558ms
+2023-09-27 14:23:32.767 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 638
+2023-09-27 14:23:32.769 +01:00 [INF] CORS policy execution successful.
+2023-09-27 14:23:32.771 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:23:32.773 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 14:25:15.410 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 14:25:15.412 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 102621.4848ms
+2023-09-27 14:25:15.414 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:25:15.416 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 638 - 200 575 application/json;+charset=utf-8 102649.7106ms
+2023-09-27 14:25:37.941 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 640
+2023-09-27 14:25:37.942 +01:00 [INF] CORS policy execution successful.
+2023-09-27 14:25:37.945 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:25:37.946 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 14:25:41.381 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 14:25:41.396 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 3444.8396ms
+2023-09-27 14:25:41.401 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:25:41.403 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 640 - 200 577 application/json;+charset=utf-8 3461.9079ms
+2023-09-27 14:26:18.202 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 638
+2023-09-27 14:26:18.205 +01:00 [INF] CORS policy execution successful.
+2023-09-27 14:26:18.206 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:26:18.219 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 14:26:24.622 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 14:26:24.629 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 6400.9747ms
+2023-09-27 14:26:24.631 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:26:24.632 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 638 - 200 575 application/json;+charset=utf-8 6430.7832ms
+2023-09-27 14:31:29.544 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 14:31:29.647 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 14:31:29.658 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 14:31:29.660 +01:00 [INF] Hosting environment: Development
+2023-09-27 14:31:29.662 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 14:31:35.333 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 14:31:36.418 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 14:31:36.418 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 14:31:36.441 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 17.4742ms
+2023-09-27 14:31:36.447 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1125.4462ms
+2023-09-27 14:31:36.542 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 124.0787ms
+2023-09-27 14:31:36.865 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 14:31:37.230 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 364.5302ms
+2023-09-27 14:32:09.053 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 639
+2023-09-27 14:32:09.078 +01:00 [INF] CORS policy execution successful.
+2023-09-27 14:32:09.084 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:32:09.140 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 14:32:17.869 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 14:32:17.928 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 8774.6923ms
+2023-09-27 14:32:17.940 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:32:17.942 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 639 - 200 576 application/json;+charset=utf-8 8888.8030ms
+2023-09-27 14:32:47.754 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 638
+2023-09-27 14:32:47.766 +01:00 [INF] CORS policy execution successful.
+2023-09-27 14:32:47.773 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:32:47.789 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 14:32:51.354 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 14:32:51.356 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 3552.072ms
+2023-09-27 14:32:51.359 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:32:51.368 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 638 - 200 575 application/json;+charset=utf-8 3614.8834ms
+2023-09-27 14:35:15.056 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 14:35:15.129 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 14:35:15.140 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 14:35:15.143 +01:00 [INF] Hosting environment: Development
+2023-09-27 14:35:15.145 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 14:35:19.811 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 14:35:20.957 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1157.3184ms
+2023-09-27 14:35:20.959 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 14:35:20.959 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 14:35:20.996 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 36.3489ms
+2023-09-27 14:35:21.046 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 86.7168ms
+2023-09-27 14:35:21.200 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 14:35:21.475 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 274.7348ms
+2023-09-27 14:35:44.968 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 642
+2023-09-27 14:35:44.985 +01:00 [INF] CORS policy execution successful.
+2023-09-27 14:35:45.006 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:35:45.079 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 14:35:58.004 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 14:35:58.090 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 12986.0914ms
+2023-09-27 14:35:58.107 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:35:58.109 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 642 - 200 579 application/json;+charset=utf-8 13140.6394ms
+2023-09-27 14:36:32.885 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Program application/json 638
+2023-09-27 14:36:32.896 +01:00 [INF] CORS policy execution successful.
+2023-09-27 14:36:32.912 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:36:32.915 +01:00 [INF] Route matched with {action = "UpdateProgram", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse]] UpdateProgram(APIAccessProDependencies.Helpers.DTOs.ProgramDTO) on controller APIAccessPro.Controllers.ProgramController (APIAccessPro).
+2023-09-27 14:36:37.015 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.Program.ProgramResponse'.
+2023-09-27 14:36:37.017 +01:00 [INF] Executed action APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro) in 4099.3418ms
+2023-09-27 14:36:37.019 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ProgramController.UpdateProgram (APIAccessPro)'
+2023-09-27 14:36:37.020 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Program application/json 638 - 200 579 application/json;+charset=utf-8 4135.4738ms
+2023-09-27 16:18:11.520 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-27 16:18:11.651 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-27 16:18:11.686 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-27 16:18:11.688 +01:00 [INF] Hosting environment: Development
+2023-09-27 16:18:11.689 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-27 16:18:19.443 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-27 16:18:21.055 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-27 16:18:21.055 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-27 16:18:21.101 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1664.8092ms
+2023-09-27 16:18:21.142 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 87.3896ms
+2023-09-27 16:18:21.431 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 375.6538ms
+2023-09-27 16:18:21.525 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-27 16:18:22.106 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 580.6924ms
