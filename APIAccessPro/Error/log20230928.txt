@@ -1,0 +1,164 @@
+2023-09-28 16:43:31.497 +01:00 [FTL] Application startup exception
+System.InvalidOperationException: Action 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)' has more than one parameter that was specified or inferred as bound from request body. Only one parameter per action may be bound from body. Inspect the following parameters, and use 'FromQueryAttribute' to specify bound from query, 'FromRouteAttribute' to specify bound from route, and 'FromBodyAttribute' for parameters to be bound from body:
+AddQuestion arrayToDelete
+ModelIDs ids
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.InferParameterBindingSources(ActionModel action)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.Apply(ActionModel action)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory.CreateApplicationModel(IEnumerable`1 controllerTypes)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.<>c__DisplayClass11_0.<Subscribe>b__0()
+   at Microsoft.Extensions.Primitives.ChangeToken.OnChange(Func`1 changeTokenProducer, Action changeTokenConsumer)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Subscribe()
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource..ctor(ControllerActionEndpointDataSourceIdProvider dataSourceIdProvider, IActionDescriptorCollectionProvider actions, ActionEndpointFactory endpointFactory, OrderedEndpointsSequenceProvider orderSequence)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.GetOrCreateDataSource(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllers(IEndpointRouteBuilder endpoints)
+   at APIAccessPro.Startup.<>c.<Configure>b__5_1(IEndpointRouteBuilder endpoints) in C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro\Startup.cs:line 96
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at APIAccessPro.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger`1 logger, IHttpContextAccessor httpContextAccessor) in C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro\Startup.cs:line 94
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass15_0.<UseStartup>b__1(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2023-09-28 16:47:53.694 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-28 16:47:53.785 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-28 16:47:53.795 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-28 16:47:53.798 +01:00 [INF] Hosting environment: Development
+2023-09-28 16:47:53.799 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-28 16:47:55.086 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-28 16:47:56.401 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-28 16:47:56.422 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-28 16:47:56.432 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1355.6010ms
+2023-09-28 16:47:56.440 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 39.1880ms
+2023-09-28 16:47:56.725 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 302.2082ms
+2023-09-28 16:47:56.874 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-28 16:47:57.339 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 465.1637ms
+2023-09-28 16:48:58.063 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-28 16:48:58.142 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-28 16:48:58.151 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-28 16:48:58.153 +01:00 [INF] Hosting environment: Development
+2023-09-28 16:48:58.153 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-28 16:48:59.316 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-28 16:49:00.405 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-28 16:49:00.405 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-28 16:49:00.436 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1128.5348ms
+2023-09-28 16:49:00.436 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 21.2320ms
+2023-09-28 16:49:00.565 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 160.0302ms
+2023-09-28 16:49:00.802 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-28 16:49:01.191 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 388.6426ms
+2023-09-28 17:18:37.462 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-28 17:18:37.569 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-28 17:18:37.585 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-28 17:18:37.588 +01:00 [INF] Hosting environment: Development
+2023-09-28 17:18:37.589 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-28 17:18:38.633 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-28 17:18:39.754 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-28 17:18:39.755 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-28 17:18:39.769 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 13.7801ms
+2023-09-28 17:18:39.774 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1152.2967ms
+2023-09-28 17:18:39.907 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 152.4668ms
+2023-09-28 17:18:40.057 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-28 17:18:40.470 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 413.0385ms
+2023-09-28 17:19:53.408 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 81
+2023-09-28 17:19:53.428 +01:00 [INF] CORS policy execution successful.
+2023-09-28 17:19:53.439 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-28 17:19:53.503 +01:00 [INF] Route matched with {action = "DeleteAddedQuestions", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] DeleteAddedQuestions(APIAccessProDependencies.Helpers.DTOs.AddQuestion, APIAccessProDependencies.Helpers.DTOs.Models.ModelIDs) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-28 17:19:54.753 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Global.FilterResponse'.
+2023-09-28 17:19:54.826 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro) in 1309.4663ms
+2023-09-28 17:19:54.833 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-28 17:19:54.838 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 81 - 400 210 application/json;+charset=utf-8 1428.3130ms
+2023-09-28 17:20:58.583 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-28 17:20:58.677 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-28 17:20:58.691 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-28 17:20:58.693 +01:00 [INF] Hosting environment: Development
+2023-09-28 17:20:58.694 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-28 17:20:59.733 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-28 17:21:00.801 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1074.4676ms
+2023-09-28 17:21:00.822 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-28 17:21:00.822 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-28 17:21:00.863 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 40.6298ms
+2023-09-28 17:21:00.943 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 120.2135ms
+2023-09-28 17:21:01.091 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-28 17:21:01.494 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 403.5771ms
+2023-09-28 17:21:38.112 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 90
+2023-09-28 17:21:38.142 +01:00 [INF] CORS policy execution successful.
+2023-09-28 17:21:38.158 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-28 17:21:38.251 +01:00 [INF] Route matched with {action = "DeleteAddedQuestions", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] DeleteAddedQuestions(APIAccessProDependencies.Helpers.DTOs.AddQuestion, APIAccessProDependencies.Helpers.DTOs.Models.ModelIDs) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-28 17:21:39.229 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Global.FilterResponse'.
+2023-09-28 17:21:39.315 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro) in 1048.4295ms
+2023-09-28 17:21:39.326 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-28 17:21:39.328 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 90 - 400 210 application/json;+charset=utf-8 1215.5873ms
+2023-09-28 17:22:34.065 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-28 17:22:34.285 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-28 17:22:34.298 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-28 17:22:34.300 +01:00 [INF] Hosting environment: Development
+2023-09-28 17:22:34.302 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-28 17:22:35.120 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-28 17:22:36.183 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-28 17:22:36.184 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-28 17:22:36.214 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 24.2256ms
+2023-09-28 17:22:36.233 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1125.9707ms
+2023-09-28 17:22:36.321 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 135.2807ms
+2023-09-28 17:22:36.461 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-28 17:22:36.938 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 476.6880ms
+2023-09-28 17:24:10.337 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 90
+2023-09-28 17:24:10.356 +01:00 [INF] CORS policy execution successful.
+2023-09-28 17:24:10.363 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-28 17:24:10.426 +01:00 [INF] Route matched with {action = "DeleteAddedQuestions", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] DeleteAddedQuestions(APIAccessProDependencies.Helpers.DTOs.AddQuestion, APIAccessProDependencies.Helpers.DTOs.Models.ModelIDs) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-28 17:24:11.424 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Global.FilterResponse'.
+2023-09-28 17:24:11.495 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro) in 1058.8936ms
+2023-09-28 17:24:11.505 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-28 17:24:11.507 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 90 - 400 143 application/json;+charset=utf-8 1170.0159ms
+2023-09-28 17:25:13.748 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-28 17:25:13.843 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-28 17:25:13.860 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-28 17:25:13.862 +01:00 [INF] Hosting environment: Development
+2023-09-28 17:25:13.864 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-28 17:25:14.939 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-28 17:25:16.014 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-28 17:25:16.014 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-28 17:25:16.044 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1115.7503ms
+2023-09-28 17:25:16.094 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 79.8020ms
+2023-09-28 17:25:16.172 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 157.6148ms
+2023-09-28 17:25:16.333 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-28 17:25:16.806 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 472.9272ms
+2023-09-28 17:25:31.824 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 90
+2023-09-28 17:25:31.848 +01:00 [INF] CORS policy execution successful.
+2023-09-28 17:25:31.862 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-28 17:25:31.925 +01:00 [INF] Route matched with {action = "DeleteAddedQuestions", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] DeleteAddedQuestions(APIAccessProDependencies.Helpers.DTOs.AddQuestion, APIAccessProDependencies.Helpers.DTOs.Models.ModelIDs) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-28 17:25:33.285 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Global.FilterResponse'.
+2023-09-28 17:25:33.369 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro) in 1432.7219ms
+2023-09-28 17:25:33.377 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-28 17:25:33.378 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 90 - 400 143 application/json;+charset=utf-8 1554.8688ms
+2023-09-28 17:40:39.087 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-28 17:40:39.289 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-28 17:40:39.300 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-28 17:40:39.304 +01:00 [INF] Hosting environment: Development
+2023-09-28 17:40:39.305 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-28 17:40:39.837 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-28 17:40:40.787 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-28 17:40:40.788 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-28 17:40:40.835 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1002.1656ms
+2023-09-28 17:40:40.836 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 49.6318ms
+2023-09-28 17:40:40.924 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 136.7078ms
+2023-09-28 17:40:41.060 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-28 17:40:41.395 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 335.2441ms
+2023-09-28 17:42:03.087 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 152
+2023-09-28 17:42:03.102 +01:00 [INF] CORS policy execution successful.
+2023-09-28 17:42:03.113 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-28 17:42:03.192 +01:00 [INF] Route matched with {action = "DeleteAddedQuestions", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] DeleteAddedQuestions(APIAccessProDependencies.Helpers.DTOs.AddQuestion) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-28 17:50:49.884 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse'.
+2023-09-28 17:50:49.941 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro) in 526726.3487ms
+2023-09-28 17:50:49.956 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-28 17:50:49.960 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 152 - 200 70 application/json;+charset=utf-8 526873.1167ms
+2023-09-28 17:51:30.665 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 152
+2023-09-28 17:51:30.699 +01:00 [INF] CORS policy execution successful.
+2023-09-28 17:51:30.701 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-28 17:51:30.712 +01:00 [INF] Route matched with {action = "DeleteAddedQuestions", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] DeleteAddedQuestions(APIAccessProDependencies.Helpers.DTOs.AddQuestion) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).

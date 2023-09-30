@@ -1,0 +1,272 @@
+2023-09-29 03:45:55.525 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-29 03:45:55.768 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-29 03:45:55.819 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-29 03:45:55.822 +01:00 [INF] Hosting environment: Development
+2023-09-29 03:45:55.824 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-29 03:45:57.831 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-29 03:45:59.670 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1851.5163ms
+2023-09-29 03:45:59.688 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-29 03:45:59.689 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-29 03:45:59.781 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 93.1603ms
+2023-09-29 03:46:01.039 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1350.0665ms
+2023-09-29 03:46:01.141 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-29 03:46:01.678 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 535.4873ms
+2023-09-29 03:48:37.126 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 152
+2023-09-29 03:48:37.150 +01:00 [INF] CORS policy execution successful.
+2023-09-29 03:48:37.164 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-29 03:48:37.233 +01:00 [INF] Route matched with {action = "DeleteAddedQuestions", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] DeleteAddedQuestions(APIAccessProDependencies.Helpers.DTOs.AddQuestion) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 04:15:00.326 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-29 04:15:00.499 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-29 04:15:00.516 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-29 04:15:00.521 +01:00 [INF] Hosting environment: Development
+2023-09-29 04:15:00.526 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-29 04:15:05.490 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger - -
+2023-09-29 04:15:05.904 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger - - - 301 0 - 417.5025ms
+2023-09-29 04:15:05.904 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-29 04:15:07.370 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1465.6757ms
+2023-09-29 04:15:07.379 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - -
+2023-09-29 04:15:07.380 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - -
+2023-09-29 04:15:07.380 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-29 04:15:07.380 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - -
+2023-09-29 04:15:07.380 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-29 04:15:07.400 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 19.7043ms
+2023-09-29 04:15:07.632 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-29 04:15:07.635 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-29 04:15:07.664 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 284.1273ms
+2023-09-29 04:15:07.723 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-29 04:15:07.735 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 355.5687ms
+2023-09-29 04:15:07.727 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/swagger-ui.css - - - 200 143632 text/css 348.0042ms
+2023-09-29 04:15:07.834 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 453.6175ms
+2023-09-29 04:15:08.325 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-29 04:15:08.531 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/favicon-32x32.png - -
+2023-09-29 04:15:08.902 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-09-29 04:15:08.909 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/favicon-32x32.png - - - 200 628 image/png 378.5869ms
+2023-09-29 04:15:09.090 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 764.8129ms
+2023-09-29 04:17:02.908 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 152
+2023-09-29 04:17:02.929 +01:00 [INF] CORS policy execution successful.
+2023-09-29 04:17:02.944 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-29 04:17:03.063 +01:00 [INF] Route matched with {action = "DeleteAddedQuestions", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] DeleteAddedQuestions(APIAccessProDependencies.Helpers.DTOs.AddQuestion) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 04:30:50.695 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-29 04:30:50.770 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-29 04:30:50.801 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-29 04:30:50.807 +01:00 [INF] Hosting environment: Development
+2023-09-29 04:30:50.813 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-29 04:30:52.071 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-29 04:30:53.180 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-29 04:30:53.182 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-29 04:30:53.205 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1144.8139ms
+2023-09-29 04:30:53.205 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 23.1985ms
+2023-09-29 04:30:53.378 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 198.4286ms
+2023-09-29 04:30:53.817 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-29 04:30:54.384 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 567.5798ms
+2023-09-29 04:32:01.755 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 152
+2023-09-29 04:32:01.810 +01:00 [INF] CORS policy execution successful.
+2023-09-29 04:32:01.830 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-29 04:32:01.944 +01:00 [INF] Route matched with {action = "DeleteAddedQuestions", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] DeleteAddedQuestions(APIAccessProDependencies.Helpers.DTOs.AddQuestion) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 04:33:50.479 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse'.
+2023-09-29 04:34:01.053 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro) in 119095.6952ms
+2023-09-29 04:34:01.068 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.DeleteAddedQuestions (APIAccessPro)'
+2023-09-29 04:34:01.071 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Delete Question application/json 152 - 200 87 application/json;+charset=utf-8 119315.8390ms
+2023-09-29 05:28:55.807 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-29 05:28:55.860 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-29 05:28:55.868 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-29 05:28:55.869 +01:00 [INF] Hosting environment: Development
+2023-09-29 05:28:55.870 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-29 05:28:56.804 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-29 05:28:57.434 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 639.1862ms
+2023-09-29 05:28:57.444 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-29 05:28:57.444 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-29 05:28:57.494 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 50.0776ms
+2023-09-29 05:28:57.537 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 93.4232ms
+2023-09-29 05:28:57.709 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-29 05:28:57.996 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 286.4614ms
+2023-09-29 05:29:06.418 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/api/Retreive Forms - -
+2023-09-29 05:29:06.432 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.RetrieveForms (APIAccessPro)'
+2023-09-29 05:29:06.471 +01:00 [INF] Route matched with {action = "RetrieveForms", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] RetrieveForms() on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 05:29:10.831 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse'.
+2023-09-29 05:29:10.891 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.RetrieveForms (APIAccessPro) in 4410.2029ms
+2023-09-29 05:29:10.900 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.RetrieveForms (APIAccessPro)'
+2023-09-29 05:29:10.901 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/api/Retreive Forms - - - 200 807 application/json;+charset=utf-8 4482.7788ms
+2023-09-29 05:29:42.981 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/api/Single Form?programId=123 - -
+2023-09-29 05:29:42.987 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.RetrieveFormsbyUserID (APIAccessPro)'
+2023-09-29 05:29:43.007 +01:00 [INF] Route matched with {action = "RetrieveFormsbyUserID", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] RetrieveFormsbyUserID(System.String) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 05:29:43.087 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse'.
+2023-09-29 05:29:43.090 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.RetrieveFormsbyUserID (APIAccessPro) in 80.0844ms
+2023-09-29 05:29:43.094 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.RetrieveFormsbyUserID (APIAccessPro)'
+2023-09-29 05:29:43.097 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/api/Single Form?programId=123 - - - 200 807 application/json;+charset=utf-8 115.8738ms
+2023-09-29 05:31:05.507 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 969
+2023-09-29 05:31:05.518 +01:00 [INF] CORS policy execution successful.
+2023-09-29 05:31:05.521 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 05:31:05.526 +01:00 [INF] Route matched with {action = "UpdateForms", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] UpdateForms(APIAccessProDependencies.Helpers.DTOs.ApplicationFormDTO) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 05:31:05.781 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse'.
+2023-09-29 05:31:05.783 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro) in 254.0982ms
+2023-09-29 05:31:05.785 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 05:31:05.786 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 969 - 200 82 application/json;+charset=utf-8 278.4432ms
+2023-09-29 05:31:32.485 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 964
+2023-09-29 05:31:32.486 +01:00 [INF] CORS policy execution successful.
+2023-09-29 05:31:32.487 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 05:31:32.489 +01:00 [INF] Route matched with {action = "UpdateForms", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] UpdateForms(APIAccessProDependencies.Helpers.DTOs.ApplicationFormDTO) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 05:31:32.561 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse'.
+2023-09-29 05:31:32.563 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro) in 70.2778ms
+2023-09-29 05:31:32.565 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 05:31:32.567 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 964 - 200 794 application/json;+charset=utf-8 81.8006ms
+2023-09-29 05:54:01.381 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-29 05:54:01.533 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-29 05:54:01.541 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-29 05:54:01.544 +01:00 [INF] Hosting environment: Development
+2023-09-29 05:54:01.545 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-29 05:54:02.503 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-29 05:54:03.298 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-29 05:54:03.300 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-29 05:54:03.310 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 818.7104ms
+2023-09-29 05:54:03.327 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 28.7320ms
+2023-09-29 05:54:03.416 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 116.0939ms
+2023-09-29 05:54:03.638 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-29 05:54:04.048 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 410.1186ms
+2023-09-29 06:04:30.694 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962
+2023-09-29 06:04:30.713 +01:00 [INF] CORS policy execution successful.
+2023-09-29 06:04:30.732 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 06:04:30.785 +01:00 [INF] Route matched with {action = "UpdateForms", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] UpdateForms(APIAccessProDependencies.Helpers.DTOs.ApplicationFormDTO) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 06:06:12.836 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse'.
+2023-09-29 06:06:12.869 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro) in 102075.9603ms
+2023-09-29 06:06:12.880 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 06:06:12.881 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962 - 200 82 application/json;+charset=utf-8 102186.9713ms
+2023-09-29 06:41:00.300 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-29 06:41:00.499 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-29 06:41:00.522 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-29 06:41:00.525 +01:00 [INF] Hosting environment: Development
+2023-09-29 06:41:00.526 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-29 06:41:36.598 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-29 06:41:36.720 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-29 06:41:36.729 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-29 06:41:36.731 +01:00 [INF] Hosting environment: Development
+2023-09-29 06:41:36.733 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-29 06:41:37.995 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-29 06:41:39.155 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-29 06:41:39.156 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-29 06:41:39.164 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1179.4750ms
+2023-09-29 06:41:39.190 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 34.6979ms
+2023-09-29 06:41:39.360 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 203.9272ms
+2023-09-29 06:41:39.718 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-29 06:41:40.390 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 671.6206ms
+2023-09-29 06:41:50.647 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962
+2023-09-29 06:41:50.676 +01:00 [INF] CORS policy execution successful.
+2023-09-29 06:41:50.689 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 06:41:50.764 +01:00 [INF] Route matched with {action = "UpdateForms", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] UpdateForms(APIAccessProDependencies.Helpers.DTOs.ApplicationFormDTO) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 06:43:41.269 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse'.
+2023-09-29 06:43:41.338 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro) in 110555.1762ms
+2023-09-29 06:43:41.352 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 06:43:41.354 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962 - 200 82 application/json;+charset=utf-8 110706.7418ms
+2023-09-29 06:43:44.614 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962
+2023-09-29 06:43:44.662 +01:00 [INF] CORS policy execution successful.
+2023-09-29 06:43:44.678 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 06:43:44.681 +01:00 [INF] Route matched with {action = "UpdateForms", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] UpdateForms(APIAccessProDependencies.Helpers.DTOs.ApplicationFormDTO) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 06:48:08.093 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-29 06:48:08.164 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-29 06:48:08.172 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-29 06:48:08.174 +01:00 [INF] Hosting environment: Development
+2023-09-29 06:48:08.175 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-29 06:48:09.219 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-29 06:48:10.271 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-29 06:48:10.278 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1068.5209ms
+2023-09-29 06:48:10.279 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-29 06:48:10.310 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 39.1329ms
+2023-09-29 06:48:10.426 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 146.8837ms
+2023-09-29 06:48:10.696 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-29 06:48:11.238 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 542.0331ms
+2023-09-29 06:48:20.986 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962
+2023-09-29 06:48:21.040 +01:00 [INF] CORS policy execution successful.
+2023-09-29 06:48:21.068 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 06:48:21.237 +01:00 [INF] Route matched with {action = "UpdateForms", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] UpdateForms(APIAccessProDependencies.Helpers.DTOs.ApplicationFormDTO) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 06:53:18.881 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-29 06:53:19.024 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-29 06:53:19.033 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-29 06:53:19.035 +01:00 [INF] Hosting environment: Development
+2023-09-29 06:53:19.036 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-29 06:53:20.111 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-29 06:53:20.956 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-29 06:53:20.968 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-29 06:53:20.980 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 868.3277ms
+2023-09-29 06:53:21.029 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 72.4403ms
+2023-09-29 06:53:21.113 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 145.5459ms
+2023-09-29 06:53:21.373 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-29 06:53:21.842 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 468.8261ms
+2023-09-29 06:53:32.246 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962
+2023-09-29 06:53:32.276 +01:00 [INF] CORS policy execution successful.
+2023-09-29 06:53:32.289 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 06:53:32.402 +01:00 [INF] Route matched with {action = "UpdateForms", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] UpdateForms(APIAccessProDependencies.Helpers.DTOs.ApplicationFormDTO) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 06:59:28.283 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-29 06:59:28.354 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-29 06:59:28.362 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-29 06:59:28.364 +01:00 [INF] Hosting environment: Development
+2023-09-29 06:59:28.365 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-29 06:59:29.885 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-29 06:59:31.213 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-29 06:59:31.217 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-29 06:59:31.242 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 26.6538ms
+2023-09-29 06:59:31.261 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 1390.6754ms
+2023-09-29 06:59:31.399 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 181.0631ms
+2023-09-29 06:59:31.857 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-29 06:59:32.503 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 645.3147ms
+2023-09-29 06:59:52.533 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962
+2023-09-29 06:59:52.560 +01:00 [INF] CORS policy execution successful.
+2023-09-29 06:59:52.571 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 06:59:52.722 +01:00 [INF] Route matched with {action = "UpdateForms", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] UpdateForms(APIAccessProDependencies.Helpers.DTOs.ApplicationFormDTO) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 07:00:06.292 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse'.
+2023-09-29 07:00:06.337 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro) in 13599.7798ms
+2023-09-29 07:00:06.349 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 07:00:06.351 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962 - 200 82 application/json;+charset=utf-8 13818.1549ms
+2023-09-29 07:00:17.996 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962
+2023-09-29 07:00:18.006 +01:00 [INF] CORS policy execution successful.
+2023-09-29 07:00:18.010 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 07:00:18.013 +01:00 [INF] Route matched with {action = "UpdateForms", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] UpdateForms(APIAccessProDependencies.Helpers.DTOs.ApplicationFormDTO) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 07:05:26.686 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse'.
+2023-09-29 07:05:26.690 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro) in 308669.5731ms
+2023-09-29 07:05:26.700 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 07:05:26.704 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962 - 200 82 application/json;+charset=utf-8 308708.0773ms
+2023-09-29 19:51:19.884 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-29 19:51:19.996 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-29 19:51:20.013 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-29 19:51:20.015 +01:00 [INF] Hosting environment: Development
+2023-09-29 19:51:20.017 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-29 19:51:20.990 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-29 19:51:23.537 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 2554.0057ms
+2023-09-29 19:51:23.684 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-29 19:51:23.648 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-29 19:51:23.714 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 68.2592ms
+2023-09-29 19:51:24.197 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 513.5707ms
+2023-09-29 19:51:24.594 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-29 19:51:24.940 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 346.2400ms
+2023-09-29 19:52:06.082 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962
+2023-09-29 19:52:06.096 +01:00 [INF] CORS policy execution successful.
+2023-09-29 19:52:06.105 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 19:52:06.155 +01:00 [INF] Route matched with {action = "UpdateForms", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] UpdateForms(APIAccessProDependencies.Helpers.DTOs.ApplicationFormDTO) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 19:56:35.360 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse'.
+2023-09-29 19:56:35.396 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro) in 269228.6033ms
+2023-09-29 19:56:35.405 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 19:56:35.406 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962 - 200 82 application/json;+charset=utf-8 269324.1374ms
+2023-09-29 19:57:11.819 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962
+2023-09-29 19:57:11.832 +01:00 [INF] CORS policy execution successful.
+2023-09-29 19:57:11.853 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 19:57:11.854 +01:00 [INF] Route matched with {action = "UpdateForms", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] UpdateForms(APIAccessProDependencies.Helpers.DTOs.ApplicationFormDTO) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 20:08:39.498 +01:00 [INF] Now listening on: https://localhost:7196
+2023-09-29 20:08:39.591 +01:00 [INF] Now listening on: http://localhost:5116
+2023-09-29 20:08:39.597 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-29 20:08:39.600 +01:00 [INF] Hosting environment: Development
+2023-09-29 20:08:39.600 +01:00 [INF] Content root path: C:\Users\David Mboko\Desktop\Git\APIAccessPro\APIAccessPro
+2023-09-29 20:08:40.050 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - -
+2023-09-29 20:08:40.738 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - - - 200 - text/html;charset=utf-8 693.0618ms
+2023-09-29 20:08:40.769 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - -
+2023-09-29 20:08:40.769 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - -
+2023-09-29 20:08:40.790 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 20.7277ms
+2023-09-29 20:08:40.831 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.5546ms
+2023-09-29 20:08:41.024 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - -
+2023-09-29 20:08:41.360 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 335.4637ms
+2023-09-29 20:09:03.137 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962
+2023-09-29 20:09:03.148 +01:00 [INF] CORS policy execution successful.
+2023-09-29 20:09:03.157 +01:00 [INF] Executing endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 20:09:03.199 +01:00 [INF] Route matched with {action = "UpdateForms", controller = "ApplicationForm"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse]] UpdateForms(APIAccessProDependencies.Helpers.DTOs.ApplicationFormDTO) on controller APIAccessPro.Controllers.ApplicationFormController (APIAccessPro).
+2023-09-29 20:13:45.880 +01:00 [INF] Executing ObjectResult, writing value of type 'APIAccessProDependencies.Helpers.DTOs.Models.ApplicationForm.ApplicationFormResponse'.
+2023-09-29 20:13:45.915 +01:00 [INF] Executed action APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro) in 282705.0367ms
+2023-09-29 20:13:45.926 +01:00 [INF] Executed endpoint 'APIAccessPro.Controllers.ApplicationFormController.UpdateForms (APIAccessPro)'
+2023-09-29 20:13:45.927 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7196/api/Update Forms application/json 962 - 200 758 application/json;+charset=utf-8 282793.5688ms
