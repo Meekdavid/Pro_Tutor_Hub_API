@@ -48,7 +48,6 @@ Before you begin, ensure you have met the following requirements:
 ## Usage
 <details>
   <summary><b>🛠️&nbsp;&nbsp;More&nbsp;About&nbsp;Project</b></summary>
-  <br/>
   
 ### Author  
   * David Mboko | [Youtube](https://img.shields.io/badge/--gmail?label=YouTube&logo=YouTube&style=social) | [LinkedIn](https://www.linkedin.com/mwlite/in/david-mboko-25bb9019b) | [Academia](https://aksu.academia.edu/DavidMboko) |
