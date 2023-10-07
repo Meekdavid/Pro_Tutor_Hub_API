@@ -50,7 +50,7 @@ Before you begin, ensure you have met the following requirements:
   <summary><b>🛠️&nbsp;&nbsp;More&nbsp;About&nbsp;Project</b></summary>
   <br/>
   ## Author
-* David Mboko | [Github](https://github.com/Meekdavid) | [LinkedIn](https://www.linkedin.com/mwlite/in/david-mboko-25bb9019b) | [Academia](https://aksu.academia.edu/DavidMboko) |
+  * David Mboko | [Github](https://github.com/Meekdavid) | [LinkedIn](https://www.linkedin.com/mwlite/in/david-mboko-25bb9019b) | [Academia](https://aksu.academia.edu/DavidMboko) |
 
 ## Resources
 - [Click to View](https://dotnet.microsoft.com/en-us/learn)
