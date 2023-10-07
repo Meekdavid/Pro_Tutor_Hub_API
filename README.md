@@ -29,14 +29,8 @@ Before you begin, ensure you have met the following requirements:
 - [Install .NET Core](https://dotnet.microsoft.com/download)
 
 ### Installation
-#### You can use Shell CLI or Visual Studio GUI
-1. Clone this repository:
+## Usage
 
-   ```shell
-   git clone https://github.com/Meekdavid/APIAccessPro.git
-2. Navigate to the Project Directory
-  ```shell
-   cd APIAccessPro
 3. Restore Dependencies
   ```shell
    dotnet restore
