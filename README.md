@@ -45,8 +45,9 @@ Before you begin, ensure you have met the following requirements:
 
 ## Usage
 To run the API locally, use the following command:
-    ```shell
-    dotnet run  
+  ```shell
+  dotnet run
+```
 The API will be available at http://localhost:5000 (HTTP) and https://localhost:5001 (HTTPS) by default. Refer to the swagger API documentation for details on available endpoints and usage.
 **https://41.203.112.130/APIAccessPro/swagger/index.html**
 
