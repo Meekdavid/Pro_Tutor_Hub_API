@@ -44,7 +44,9 @@ Before you begin, ensure you have met the following requirements:
     dotnet build 
 
 ## Usage
-To run the API locally, use the following command:```shell
+To run the API locally, use the following command:
+    ```shell
+    dotnet run  
 The API will be available at http://localhost:5000 (HTTP) and https://localhost:5001 (HTTPS) by default. Refer to the swagger API documentation for details on available endpoints and usage.
 **https://41.203.112.130/APIAccessPro/swagger/index.html**
 
@@ -57,7 +59,7 @@ The API will be available at http://localhost:5000 (HTTP) and https://localhost:
 - **Test the API:** In IIS Manager, choose your site in the left pane, then click "Browse" to test your API in a web browser using the configured URL.
 - **Set Up CosmosDB using an Emulator:** Set up the CosmosDB using an Emulator, details can be found on the appsettings.json file.
 - **Troubleshoot:** In case of issues, check logs for errors and verify all required dependencies and configurations, including database connections and app settings.
-### **N/B:** You can deploy the .NET Core API to various platforms based on your requirements: Azure App Service, AWS Lambda, Docker Et Cetera.
+### **N/B:** You can deploy the .NET Core API to various platforms based on your requirements: Azure App Service, AWS Lambda, Docker, Et Cetera.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
