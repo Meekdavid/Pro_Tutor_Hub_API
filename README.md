@@ -3,11 +3,11 @@
 The **Program Registration API** is a .NET Core project designed to simplify program management and registration. It offers CRUD operations, integrates with Azure Cosmos DB, and provides flexibility for application templates and workflow stages. Built with .NET 6.0, it ensures efficiency and scalability.
 ### Key Features
 
-- **Effortless Registration:** Simplify the registration process for students, applicants, or participants.
+- **Effortless Registration:** Simplify the registration process for participants.
 - **Program Management:** Easily create, update, and manage various programs, program details, or application forms.
 - **Secure Data Handling:** Ensures input data are validated against XML and SQL injection attacks.
-- **Customizable Forms:** Ensures forms are program details are customisable.
-- **Reporting and Analytics:** Incorporates Swagger UI endpoints documentation for easy accessibility.
+- **Customizable Forms:** Ensures forms and program details are customisable.
+- **Documentation:** Incorporates Swagger UI endpoints documentation for easy accessibility.
 - **Integration Capabilities:** Seamlessly integrate with other systems and databases.
 
 ## Contents
