@@ -50,7 +50,7 @@ Before you begin, ensure you have met the following requirements:
   <summary><b>🛠️&nbsp;&nbsp;More&nbsp;About&nbsp;Project</b></summary>
   
 ### Author  
-  * David Mboko | [Youtube](https://img.shields.io/badge/--gmail?label=YouTube&logo=YouTube&style=social) | [LinkedIn](https://www.linkedin.com/mwlite/in/david-mboko-25bb9019b) | [Academia](https://aksu.academia.edu/DavidMboko) |
+  * David Mboko | [Youtube](https://www.youtube.com/@davidmboko6502/featured) | [LinkedIn](https://www.linkedin.com/mwlite/in/david-mboko-25bb9019b) | [Academia](https://aksu.academia.edu/DavidMboko) |
 
 ### Resources
 - [Click to View](https://dotnet.microsoft.com/en-us/learn)
