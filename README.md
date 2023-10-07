@@ -18,7 +18,6 @@ The **Program Registration API** is a .NET Core project designed to simplify pro
 - [Usage](#usage)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
@@ -29,6 +28,8 @@ Before you begin, ensure you have met the following requirements:
 - [Install .NET Core](https://dotnet.microsoft.com/download)
 
 ### Installation
+## Usage
+## Deployment
 ## Usage
 
 3. Restore Dependencies
