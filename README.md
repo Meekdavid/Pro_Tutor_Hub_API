@@ -7,7 +7,7 @@ The **Program Registration API** is a .NET Core project designed to simplify pro
 - **Program Management:** Easily create, update, and manage various programs, program details, or application forms.
 - **Secure Data Handling:** Ensures input data are validated against XML and SQL injection attacks.
 - **Customizable Forms:** Ensures forms are program details are customisable.
-- **Reporting and Analytics:** Incoporates Swagger UI endpoints documentation for easy accessibility.
+- **Reporting and Analytics:** Incorporates Swagger UI endpoints documentation for easy accessibility.
 - **Integration Capabilities:** Seamlessly integrate with other systems and databases.
 
 ## Contents
@@ -49,9 +49,9 @@ Before you begin, ensure you have met the following requirements:
 <details>
   <summary><b>🛠️&nbsp;&nbsp;More&nbsp;About&nbsp;Project</b></summary>
   <br/>
-  ## Author
+## Author
   
-  * David Mboko | [Github](https://github.com/Meekdavid) | [LinkedIn](https://www.linkedin.com/mwlite/in/david-mboko-25bb9019b) | [Academia](https://aksu.academia.edu/DavidMboko) |
+  * David Mboko | [Youtube](https://img.shields.io/badge/--gmail?label=YouTube&logo=YouTube&style=social)) | [LinkedIn](https://www.linkedin.com/mwlite/in/david-mboko-25bb9019b) | [Academia](https://aksu.academia.edu/DavidMboko) |
 
 ## Resources
 - [Click to View](https://dotnet.microsoft.com/en-us/learn)
